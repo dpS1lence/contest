@@ -18,7 +18,7 @@ export function SmoothScrollProvider({ children }: SmoothScrollProviderProps) {
       orientation: 'vertical',
       gestureOrientation: 'vertical',
       smoothWheel: true,
-      smoothTouch: false,
+      syncTouch: false,
       touchMultiplier: 2,
     });
 
